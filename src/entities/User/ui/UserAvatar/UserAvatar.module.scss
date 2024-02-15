@@ -1,0 +1,28 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.profile {
+  display: flex;
+  align-items: center;
+  width: calc(100%);
+}
+
+.information {
+  margin-left: 1rem;
+  overflow: hidden;
+}
+
+.name,
+.username {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.name {
+  @include text-sm;
+  color: var(--gray-900);
+}
+
+.username {
+  @include text-xs;
+  color: var(--gray-600);
+}

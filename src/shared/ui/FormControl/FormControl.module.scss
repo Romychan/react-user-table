@@ -1,0 +1,65 @@
+@import '~/app/assets/styles/typography';
+
+.container {
+  display: flex;
+  gap: 0.125rem;
+
+  &.top {
+    flex-direction: column;
+  }
+
+  &.left,
+  &.right {
+    align-items: center;
+
+    & .label {
+      width: 30%;
+    }
+
+    & .content {
+      width: 100%;
+    }
+  }
+
+  &.right {
+    flex-direction: row-reverse;
+
+    & .label {
+      text-align: right;
+    }
+  }
+
+  &.left {
+    flex-direction: row;
+  }
+
+  &.primary {
+    & .label {
+      @include text-medium;
+      color: var(--gray-900);
+    }
+  }
+
+  &.secondary {
+    & .label {
+      color: var(--gray-400);
+    }
+  }
+}
+
+.label {
+  @include text-xs;
+  display: block;
+}
+
+.content {
+  position: relative;
+}
+
+.error {
+  @include text-xs;
+  color: var(--red-500);
+  position: absolute;
+  bottom: -1.25rem;
+  left: 0;
+}

@@ -1,0 +1,140 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.backdrop {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.3);
+  animation: FadeIn 0.2s forwards;
+
+  &.hidden {
+    animation: FadeOut 0.2s forwards;
+  }
+
+  &.transparent {
+    background: transparent;
+    z-index: -1;
+  }
+
+  &.center {
+    z-index: 10;
+  }
+
+  &.left {
+    justify-content: flex-start;
+  }
+}
+
+.container {
+  width: calc(100% - 1rem);
+  max-width: calc(420px + 1rem);
+  height: 100vh;
+  max-height: 100vh;
+  background: var(--background);
+  border-radius: 12px;
+  position: relative;
+  overflow: auto;
+  animation: FadeIn 0.2s forwards;
+
+  &.hidden {
+    animation: FadeOut 0.2s forwards;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  &.left,
+  &.right {
+    position: fixed;
+    top: 0px;
+    border-radius: 0px;
+    margin: 0px;
+    z-index: 20;
+  }
+
+  &.right {
+    right: 0px;
+  }
+
+  &.left {
+    left: 0px;
+  }
+
+  &.center {
+    height: auto;
+    max-height: calc(100vh - 1rem);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+  }
+}
+
+.header {
+  padding: 2rem 1.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.information {
+}
+
+.title {
+  @include text-md;
+  @include text-medium;
+  color: var(--gray-900);
+}
+
+.description {
+  @include text-xs;
+  color: var(--gray-400);
+}
+
+.body {
+  padding: 2rem 1.5rem;
+  padding-top: 0rem;
+}
+
+.content {
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    &.left,
+    &.right {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes FadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,27 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+}
+
+.inner {
+  padding: 4rem 0px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  @include text-2xl;
+  @include text-medium;
+}
+
+@media screen and (max-width: 374px) {
+  .header {
+    flex-direction: column;
+  }
+}

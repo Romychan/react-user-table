@@ -1,0 +1,15 @@
+.container {
+}
+
+.button {
+}
+
+@media screen and (max-width: 374px) {
+  .container {
+    width: 100%;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

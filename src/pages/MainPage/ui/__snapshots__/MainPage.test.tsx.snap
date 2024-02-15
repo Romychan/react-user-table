@@ -1,0 +1,1870 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MainPage > Default render > should match snapshot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="_container_ec67cc"
+      >
+        <div
+          class="container"
+        >
+          <div
+            class="_inner_ec67cc"
+          >
+            <div
+              class="_header_ec67cc"
+            >
+              <h1
+                class="_title_ec67cc"
+              >
+                User Management
+              </h1>
+              <div
+                class="_container_fcd5d4"
+              >
+                <button
+                  class="_button_0302f3 _button_fcd5d4 _primary_0302f3 _sm_0302f3"
+                  data-testid="drawer-add-user"
+                >
+                  <svg
+                    class="icon icon-plus"
+                    data-testid="icon"
+                    height="10"
+                    width="10"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#plus"
+                    />
+                  </svg>
+                  Add user
+                </button>
+              </div>
+            </div>
+            <div
+              class="_container_055980"
+            >
+              <div
+                class="_container_30c746 _container_c961cd"
+              >
+                <div
+                  class="_element_30c746 _startContent_30c746"
+                >
+                  <svg
+                    class="icon icon-search"
+                    data-testid="icon"
+                    height="16"
+                    width="16"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#search"
+                    />
+                  </svg>
+                </div>
+                <input
+                  autocomplete="off"
+                  class="_input_95237c _filled_95237c"
+                  data-testid="search-user"
+                  id="search-user"
+                  name="search-user"
+                  placeholder="Search by name..."
+                  value=""
+                />
+              </div>
+              <div
+                class="_wrapper_055980"
+                data-testid="user-table"
+              >
+                <table
+                  class="_table_78892f _table_055980"
+                >
+                  <thead
+                    class="_header_5dd620"
+                  >
+                    <tr
+                      class="_row_5dd620"
+                    >
+                      <th
+                        aria-sort="none"
+                        class="_cell_de2dbc _isSortable_de2dbc"
+                        data-testid="table-header-cell"
+                        style="width: 320px;"
+                      >
+                        Name
+                        <svg
+                          class="icon icon-chevron _icon_de2dbc"
+                          data-testid="icon"
+                          height="14"
+                          width="14"
+                        >
+                          <use
+                            xlink:href="/images/icons.svg#chevron"
+                          />
+                        </svg>
+                        <div
+                          class="_resizer_de2dbc _active_de2dbc"
+                          data-testid="table-header-cell-resizer"
+                        />
+                      </th>
+                      <th
+                        aria-sort="none"
+                        class="_cell_de2dbc _isSortable_de2dbc"
+                        data-testid="table-header-cell"
+                        style="width: 320px;"
+                      >
+                        Email
+                        <svg
+                          class="icon icon-chevron _icon_de2dbc"
+                          data-testid="icon"
+                          height="14"
+                          width="14"
+                        >
+                          <use
+                            xlink:href="/images/icons.svg#chevron"
+                          />
+                        </svg>
+                        <div
+                          class="_resizer_de2dbc _active_de2dbc"
+                          data-testid="table-header-cell-resizer"
+                        />
+                      </th>
+                      <th
+                        aria-sort="none"
+                        class="_cell_de2dbc _isSortable_de2dbc"
+                        data-testid="table-header-cell"
+                        style="width: 240px;"
+                      >
+                        Phone
+                        <svg
+                          class="icon icon-chevron _icon_de2dbc"
+                          data-testid="icon"
+                          height="14"
+                          width="14"
+                        >
+                          <use
+                            xlink:href="/images/icons.svg#chevron"
+                          />
+                        </svg>
+                        <div
+                          class="_resizer_de2dbc _active_de2dbc"
+                          data-testid="table-header-cell-resizer"
+                        />
+                      </th>
+                      <th
+                        aria-sort="none"
+                        class="_cell_de2dbc _isSortable_de2dbc"
+                        data-testid="table-header-cell"
+                        style="width: 190px;"
+                      >
+                        City
+                        <svg
+                          class="icon icon-chevron _icon_de2dbc"
+                          data-testid="icon"
+                          height="14"
+                          width="14"
+                        >
+                          <use
+                            xlink:href="/images/icons.svg#chevron"
+                          />
+                        </svg>
+                        <div
+                          class="_resizer_de2dbc _active_de2dbc"
+                          data-testid="table-header-cell-resizer"
+                        />
+                      </th>
+                      <th
+                        aria-sort="none"
+                        class="_cell_de2dbc _isSortable_de2dbc"
+                        data-testid="table-header-cell"
+                        style="width: 210px;"
+                      >
+                        Address
+                        <svg
+                          class="icon icon-chevron _icon_de2dbc"
+                          data-testid="icon"
+                          height="14"
+                          width="14"
+                        >
+                          <use
+                            xlink:href="/images/icons.svg#chevron"
+                          />
+                        </svg>
+                        <div
+                          class="_resizer_de2dbc _active_de2dbc"
+                          data-testid="table-header-cell-resizer"
+                        />
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody
+                    class="_body_f9eda9"
+                    data-testid="table-body"
+                  >
+                    <tr
+                      aria-rowindex="0"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="testname"
+                              class="_image_15af9b"
+                              src="https://robohash.org/L9Z.png?set=set4"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Test Name
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              testname
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        test@test.test
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (123) 456-78-90
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        Moscow
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        Test Address
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="1"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Nadine.Stanton35"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/173.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Nadine Streich
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Nadine.Stanton35
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Nadine.Streich@gmail.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (367) 279-04-93
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        Hoegermouth
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        S Oak Street
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="2"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Irvin52"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1215.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Irvin Zemlak-Borer
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Irvin52
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Irvin_Zemlak-Borer4@gmail.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (523) 349-72-39
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        North Christian
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        W Park Street
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="3"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Cody79"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/854.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Cody Schuppe
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Cody79
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Cody.Schuppe44@yahoo.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (673) 481-59-76
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        Fort Dockton
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        Waverley Road
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="4"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Dominic34"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/763.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Dominic Rowe
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Dominic34
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Dominic_Rowe14@hotmail.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (741) 755-61-38
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        Fort Quinnstad
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        E 9th Street
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="5"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Mamie38"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/237.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Mamie Marks
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Mamie38
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Mamie.Marks@hotmail.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (382) 468-47-58
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        Hamillboro
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        Fritsch Rapids
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="6"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Brian.Prosacco56"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/530.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Brian Hilll
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Brian.Prosacco56
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Brian_Hilll@yahoo.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (152) 023-71-92
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        Bartellburgh
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        Priory Road
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="7"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Becky.Effertz19"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/732.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Becky Kiehn
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Becky.Effertz19
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Becky_Kiehn74@yahoo.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (399) 711-12-46
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        Duluth
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        Rosella Islands
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="8"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Moses95"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1143.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Moses Frami
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Moses95
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Moses.Frami@yahoo.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (376) 230-16-07
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        East Eldridgestead
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        N Main
+                      </td>
+                    </tr>
+                    <tr
+                      aria-rowindex="9"
+                      class="_row_f9eda9 _clickable_f9eda9"
+                      data-testid="table-body-row"
+                    >
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-name"
+                      >
+                        <div
+                          class="_profile_847f2f"
+                        >
+                          <div
+                            class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                            data-testid="avatar"
+                          >
+                            <img
+                              alt="Jesse.Corwin97"
+                              class="_image_15af9b"
+                              src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/50.jpg"
+                            />
+                          </div>
+                          <div
+                            class="_information_847f2f"
+                          >
+                            <h2
+                              class="_name_847f2f"
+                            >
+                              Jesse Farrell
+                            </h2>
+                            <p
+                              class="_username_847f2f"
+                            >
+                              Jesse.Corwin97
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-email"
+                      >
+                        Jesse.Farrell95@gmail.com
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-phone"
+                      >
+                        +7 (860) 048-56-71
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-city"
+                      >
+                        Rempelmouth
+                      </td>
+                      <td
+                        class="_cell_f9eda9"
+                        data-testid="table-body-cell-address"
+                      >
+                        Pfannerstill Track
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div
+                class="_container_900fc1 _pagination_055980"
+                data-testid="pagination"
+              >
+                <button
+                  class="_button_0302f3 _page_900fc1 _prev_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                  data-testid="pagination-prev"
+                  disabled=""
+                >
+                  <svg
+                    class="icon icon-chevron"
+                    data-testid="icon"
+                    height="16"
+                    width="16"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#chevron"
+                    />
+                  </svg>
+                </button>
+                <button
+                  class="_button_0302f3 _page_900fc1 _primary_0302f3 _sm_0302f3 _icon_0302f3"
+                >
+                  1
+                </button>
+                <button
+                  class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                >
+                  2
+                </button>
+                <button
+                  class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                >
+                  3
+                </button>
+                <button
+                  class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                >
+                  4
+                </button>
+                <button
+                  class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                >
+                  5
+                </button>
+                <button
+                  class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                  data-testid="pagination-next-dot"
+                >
+                  ...
+                </button>
+                <button
+                  class="_button_0302f3 _page_900fc1 _next_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                  data-testid="pagination-next"
+                >
+                  <svg
+                    class="icon icon-chevron"
+                    data-testid="icon"
+                    height="16"
+                    width="16"
+                  >
+                    <use
+                      xlink:href="/images/icons.svg#chevron"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="_container_f24d02 _bottom-center_f24d02"
+      data-testid="toast-container"
+    />
+  </body>,
+  "container": <div>
+    <div
+      class="_container_ec67cc"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="_inner_ec67cc"
+        >
+          <div
+            class="_header_ec67cc"
+          >
+            <h1
+              class="_title_ec67cc"
+            >
+              User Management
+            </h1>
+            <div
+              class="_container_fcd5d4"
+            >
+              <button
+                class="_button_0302f3 _button_fcd5d4 _primary_0302f3 _sm_0302f3"
+                data-testid="drawer-add-user"
+              >
+                <svg
+                  class="icon icon-plus"
+                  data-testid="icon"
+                  height="10"
+                  width="10"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#plus"
+                  />
+                </svg>
+                Add user
+              </button>
+            </div>
+          </div>
+          <div
+            class="_container_055980"
+          >
+            <div
+              class="_container_30c746 _container_c961cd"
+            >
+              <div
+                class="_element_30c746 _startContent_30c746"
+              >
+                <svg
+                  class="icon icon-search"
+                  data-testid="icon"
+                  height="16"
+                  width="16"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#search"
+                  />
+                </svg>
+              </div>
+              <input
+                autocomplete="off"
+                class="_input_95237c _filled_95237c"
+                data-testid="search-user"
+                id="search-user"
+                name="search-user"
+                placeholder="Search by name..."
+                value=""
+              />
+            </div>
+            <div
+              class="_wrapper_055980"
+              data-testid="user-table"
+            >
+              <table
+                class="_table_78892f _table_055980"
+              >
+                <thead
+                  class="_header_5dd620"
+                >
+                  <tr
+                    class="_row_5dd620"
+                  >
+                    <th
+                      aria-sort="none"
+                      class="_cell_de2dbc _isSortable_de2dbc"
+                      data-testid="table-header-cell"
+                      style="width: 320px;"
+                    >
+                      Name
+                      <svg
+                        class="icon icon-chevron _icon_de2dbc"
+                        data-testid="icon"
+                        height="14"
+                        width="14"
+                      >
+                        <use
+                          xlink:href="/images/icons.svg#chevron"
+                        />
+                      </svg>
+                      <div
+                        class="_resizer_de2dbc _active_de2dbc"
+                        data-testid="table-header-cell-resizer"
+                      />
+                    </th>
+                    <th
+                      aria-sort="none"
+                      class="_cell_de2dbc _isSortable_de2dbc"
+                      data-testid="table-header-cell"
+                      style="width: 320px;"
+                    >
+                      Email
+                      <svg
+                        class="icon icon-chevron _icon_de2dbc"
+                        data-testid="icon"
+                        height="14"
+                        width="14"
+                      >
+                        <use
+                          xlink:href="/images/icons.svg#chevron"
+                        />
+                      </svg>
+                      <div
+                        class="_resizer_de2dbc _active_de2dbc"
+                        data-testid="table-header-cell-resizer"
+                      />
+                    </th>
+                    <th
+                      aria-sort="none"
+                      class="_cell_de2dbc _isSortable_de2dbc"
+                      data-testid="table-header-cell"
+                      style="width: 240px;"
+                    >
+                      Phone
+                      <svg
+                        class="icon icon-chevron _icon_de2dbc"
+                        data-testid="icon"
+                        height="14"
+                        width="14"
+                      >
+                        <use
+                          xlink:href="/images/icons.svg#chevron"
+                        />
+                      </svg>
+                      <div
+                        class="_resizer_de2dbc _active_de2dbc"
+                        data-testid="table-header-cell-resizer"
+                      />
+                    </th>
+                    <th
+                      aria-sort="none"
+                      class="_cell_de2dbc _isSortable_de2dbc"
+                      data-testid="table-header-cell"
+                      style="width: 190px;"
+                    >
+                      City
+                      <svg
+                        class="icon icon-chevron _icon_de2dbc"
+                        data-testid="icon"
+                        height="14"
+                        width="14"
+                      >
+                        <use
+                          xlink:href="/images/icons.svg#chevron"
+                        />
+                      </svg>
+                      <div
+                        class="_resizer_de2dbc _active_de2dbc"
+                        data-testid="table-header-cell-resizer"
+                      />
+                    </th>
+                    <th
+                      aria-sort="none"
+                      class="_cell_de2dbc _isSortable_de2dbc"
+                      data-testid="table-header-cell"
+                      style="width: 210px;"
+                    >
+                      Address
+                      <svg
+                        class="icon icon-chevron _icon_de2dbc"
+                        data-testid="icon"
+                        height="14"
+                        width="14"
+                      >
+                        <use
+                          xlink:href="/images/icons.svg#chevron"
+                        />
+                      </svg>
+                      <div
+                        class="_resizer_de2dbc _active_de2dbc"
+                        data-testid="table-header-cell-resizer"
+                      />
+                    </th>
+                  </tr>
+                </thead>
+                <tbody
+                  class="_body_f9eda9"
+                  data-testid="table-body"
+                >
+                  <tr
+                    aria-rowindex="0"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="testname"
+                            class="_image_15af9b"
+                            src="https://robohash.org/L9Z.png?set=set4"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Test Name
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            testname
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      test@test.test
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (123) 456-78-90
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      Moscow
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      Test Address
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="1"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Nadine.Stanton35"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/173.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Nadine Streich
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Nadine.Stanton35
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Nadine.Streich@gmail.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (367) 279-04-93
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      Hoegermouth
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      S Oak Street
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="2"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Irvin52"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1215.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Irvin Zemlak-Borer
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Irvin52
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Irvin_Zemlak-Borer4@gmail.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (523) 349-72-39
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      North Christian
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      W Park Street
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="3"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Cody79"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/854.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Cody Schuppe
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Cody79
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Cody.Schuppe44@yahoo.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (673) 481-59-76
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      Fort Dockton
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      Waverley Road
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="4"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Dominic34"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/763.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Dominic Rowe
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Dominic34
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Dominic_Rowe14@hotmail.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (741) 755-61-38
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      Fort Quinnstad
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      E 9th Street
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="5"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Mamie38"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/237.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Mamie Marks
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Mamie38
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Mamie.Marks@hotmail.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (382) 468-47-58
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      Hamillboro
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      Fritsch Rapids
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="6"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Brian.Prosacco56"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/530.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Brian Hilll
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Brian.Prosacco56
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Brian_Hilll@yahoo.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (152) 023-71-92
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      Bartellburgh
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      Priory Road
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="7"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Becky.Effertz19"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/732.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Becky Kiehn
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Becky.Effertz19
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Becky_Kiehn74@yahoo.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (399) 711-12-46
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      Duluth
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      Rosella Islands
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="8"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Moses95"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1143.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Moses Frami
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Moses95
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Moses.Frami@yahoo.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (376) 230-16-07
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      East Eldridgestead
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      N Main
+                    </td>
+                  </tr>
+                  <tr
+                    aria-rowindex="9"
+                    class="_row_f9eda9 _clickable_f9eda9"
+                    data-testid="table-body-row"
+                  >
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-name"
+                    >
+                      <div
+                        class="_profile_847f2f"
+                      >
+                        <div
+                          class="_container_15af9b _xs_15af9b _auto_15af9b _border_15af9b"
+                          data-testid="avatar"
+                        >
+                          <img
+                            alt="Jesse.Corwin97"
+                            class="_image_15af9b"
+                            src="https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/50.jpg"
+                          />
+                        </div>
+                        <div
+                          class="_information_847f2f"
+                        >
+                          <h2
+                            class="_name_847f2f"
+                          >
+                            Jesse Farrell
+                          </h2>
+                          <p
+                            class="_username_847f2f"
+                          >
+                            Jesse.Corwin97
+                          </p>
+                        </div>
+                      </div>
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-email"
+                    >
+                      Jesse.Farrell95@gmail.com
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-phone"
+                    >
+                      +7 (860) 048-56-71
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-city"
+                    >
+                      Rempelmouth
+                    </td>
+                    <td
+                      class="_cell_f9eda9"
+                      data-testid="table-body-cell-address"
+                    >
+                      Pfannerstill Track
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="_container_900fc1 _pagination_055980"
+              data-testid="pagination"
+            >
+              <button
+                class="_button_0302f3 _page_900fc1 _prev_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                data-testid="pagination-prev"
+                disabled=""
+              >
+                <svg
+                  class="icon icon-chevron"
+                  data-testid="icon"
+                  height="16"
+                  width="16"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#chevron"
+                  />
+                </svg>
+              </button>
+              <button
+                class="_button_0302f3 _page_900fc1 _primary_0302f3 _sm_0302f3 _icon_0302f3"
+              >
+                1
+              </button>
+              <button
+                class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+              >
+                2
+              </button>
+              <button
+                class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+              >
+                3
+              </button>
+              <button
+                class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+              >
+                4
+              </button>
+              <button
+                class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+              >
+                5
+              </button>
+              <button
+                class="_button_0302f3 _page_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                data-testid="pagination-next-dot"
+              >
+                ...
+              </button>
+              <button
+                class="_button_0302f3 _page_900fc1 _next_900fc1 _secondary_0302f3 _sm_0302f3 _icon_0302f3"
+                data-testid="pagination-next"
+              >
+                <svg
+                  class="icon icon-chevron"
+                  data-testid="icon"
+                  height="16"
+                  width="16"
+                >
+                  <use
+                    xlink:href="/images/icons.svg#chevron"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

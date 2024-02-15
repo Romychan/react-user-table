@@ -1,0 +1,69 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+
+  & span {
+    @include text-medium;
+  }
+
+  &.error {
+    background: var(--gray-900);
+
+    & img {
+      display: none;
+    }
+  }
+
+  &.border {
+    box-shadow:
+      0 0 0 2px var(--background),
+      0 0 0 4px var(--gray-100);
+  }
+
+  &.md {
+    @include text-md;
+    width: 5rem;
+    min-width: 5rem;
+  }
+
+  &.sm {
+    @include text-sm;
+    width: 3rem;
+    min-width: 3rem;
+  }
+
+  &.xs {
+    @include text-xs;
+    width: 2rem;
+    min-width: 2rem;
+  }
+
+  &.none {
+    border-radius: 0px;
+  }
+
+  &.rounded {
+    border-radius: 120px;
+  }
+
+  &.auto {
+    border-radius: var(--radius-default);
+  }
+}
+
+.image {
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.placeholder {
+  color: #ffffff;
+}

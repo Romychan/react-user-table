@@ -1,0 +1,25 @@
+.container {
+  display: inline-flex;
+  background: var(--gray-50);
+  border-radius: var(--radius-default);
+}
+
+.page {
+  transition: 0.2s;
+  &.next {
+    & svg {
+      transform: rotate(-90deg);
+    }
+  }
+
+  &.prev {
+    & svg {
+      transform: rotate(90deg);
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}

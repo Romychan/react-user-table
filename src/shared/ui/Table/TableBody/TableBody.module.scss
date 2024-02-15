@@ -1,0 +1,36 @@
+@import '~/app/assets/styles/_typography.scss';
+
+.body {
+}
+
+.row {
+  background-color: var(--background);
+  border-bottom: 1px solid var(--gray-25);
+
+  &.clickable {
+    cursor: pointer;
+  }
+
+  &:hover {
+    background-color: var(--gray-25);
+  }
+}
+
+.placeholder {
+  @include text-xs;
+  @include text-medium;
+  color: var(--gray-900);
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+}
+
+.cell {
+  @include text-sm;
+  color: var(--gray-900);
+  padding: 1rem;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}

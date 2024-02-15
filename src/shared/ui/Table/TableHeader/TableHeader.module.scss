@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  background: var(--gray-50);
+}
+
+.row {
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    position: sticky;
+    top: 0;
+  }
+}
